@@ -2,7 +2,7 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 
 
-public class GradeCalculator {
+public class V5_Project_11_page_97 {
 
     public static void main(String[] args) {
 
