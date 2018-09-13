@@ -1,10 +1,10 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
+
 public class GradeCalculator {
 
     public static void main(String[] args) {
-        int num_of_grades = 3;
 
         Assignment grades[] = new Assignment[] { new Assignment(), new Assignment(), new Assignment() };
 
