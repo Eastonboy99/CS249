@@ -11,17 +11,17 @@
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
             "stopOnEntry": false,
-            "mainClass": "GradeCalculator",
-            "args": ""
+            "mainClass": "V5_Project_11_page_97",
+            "args": "./input.txt"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)-GradeCalculator",
+            "name": "Debug (Launch)-V5_Project_11_page_97",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
             "stopOnEntry": false,
-            "mainClass": "GradeCalculator",
+            "mainClass": "V5_Project_11_page_97",
             "args": ""
         },
         // {
