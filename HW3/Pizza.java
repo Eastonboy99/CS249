@@ -1,7 +1,7 @@
 import java.text.DecimalFormat;
 
 class Pizza {
-    public enum Size {
+    public enum Size { // pizza size
         SM, MD, LG
     }
 
@@ -10,10 +10,9 @@ class Pizza {
     private double lg_price = 14.00; // price of large pizza
     private double top_price = 2.00; // price of toppings
 
-    private DecimalFormat df2 = new DecimalFormat(".##");
 
-    Size size;
-    private int cheese_top, pepp_top, ham_top;
+    Size size; // size od pizza
+    private int cheese_top, pepp_top, ham_top; // topping numbers
 
     Pizza(Size size, int cheese_top, int pepp_top, int ham_top) {
         this.setCheeseToppings(cheese_top);
