@@ -1,3 +1,5 @@
+import java.text.DecimalFormat;
+
 class Pizza {
     public enum Size {
         SM, MD, LG
@@ -8,26 +10,50 @@ class Pizza {
     private double lg_price = 14.00; // price of large pizza
     private double top_price = 2.00; // price of toppings
 
+    private DecimalFormat df2 = new DecimalFormat(".##");
+
     Size size;
     private int cheese_top, pepp_top, ham_top;
 
     Pizza(Size size, int cheese_top, int pepp_top, int ham_top) {
+        this.setCheeseToppings(cheese_top);
+        this.setPepperoniToppings(pepp_top);
+        this.setHamToppings(ham_top);
+        this.setPizzaSize(size);
+    }
+
+    public void setCheeseToppings(int cheese_top) {
         this.cheese_top = cheese_top;
+    }
+
+    public void setPepperoniToppings(int pepp_top) {
         this.pepp_top = pepp_top;
+    }
+
+    public void setHamToppings(int ham_top) {
         this.ham_top = ham_top;
+    }
+
+    public void setPizzaSize(Size size) {
         this.size = size;
     }
 
-    private double calcCost() {
+
+    
+
+    public double calcCost() {
         int toppings = this.cheese_top + this.pepp_top + this.ham_top;
         double cost;
         switch (this.size) {
         case SM:
             cost = this.sm_price;
+            break;
         case MD:
             cost = this.md_price;
+            break;
         case LG:
             cost = this.lg_price;
+            break;
         default:
             cost = 0.00;
 
@@ -41,10 +67,13 @@ class Pizza {
         switch (this.size) {
         case SM:
             size = "Small";
+            break;
         case MD:
             size = "Medium";
+            break;
         case LG:
             size = "Large";
+            break;
         default:
             size = "unknown";
         }

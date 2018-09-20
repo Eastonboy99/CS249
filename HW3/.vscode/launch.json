@@ -6,12 +6,32 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - V5_Project_8_page_343",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "V5_Project_8_page_343",
+            "args": ""
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch)-V5_Project_11_page_257",
             "request": "launch",
             "cwd": "${workspaceFolder}/HW3",
             "console": "internalConsole",
             "stopOnEntry": false,
             "mainClass": "V5_Project_11_page_257",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-V5_Project_12_page_257",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/HW3",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "V5_Project_12_page_257",
             "args": ""
         }
     ]
