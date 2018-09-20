@@ -2,14 +2,24 @@ class PizzaOrder {
     private int numPizza;
     private Pizza pizzas[];
 
-    PizzaOrder(){
+    PizzaOrder() {
 
     }
-    PizzaOrder(PizzaOrder order){
+
+    PizzaOrder(PizzaOrder order) {
         this.setNumPizzas(order.getNumPizzas());
-        this.setPizza1(order.getPizza1());
-        this.setPizza2(order.getPizza2());
-        this.setPizza3(order.getPizza3());
+        switch (this.getNumPizzas()) {
+        case 3:
+            this.setPizza3(new Pizza(order.getPizza3()));
+
+        case 2:
+            this.setPizza2(new Pizza(order.getPizza2()));
+        case 1:
+            this.setPizza1(new Pizza(order.getPizza1()));
+            break;
+        default:
+
+        }
 
     }
 

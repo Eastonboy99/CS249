@@ -22,18 +22,34 @@ class Pizza {
         this.setPizzaSize(size);
     }
 
+    Pizza(Pizza orig_pizza){
+        this.setCheeseToppings(orig_pizza.getCheeseToppings());
+        this.setPepperoniToppings(orig_pizza.getPepperoniToppings());
+        this.setHamToppings(orig_pizza.getHamToppings());
+        this.setPizzaSize(orig_pizza.getPizzaSize());
+    }
+
+    public int getCheeseToppings(){
+        return this.cheese_top;
+    }
     public void setCheeseToppings(int cheese_top) {
         this.cheese_top = cheese_top;
     }
-
+    public int getPepperoniToppings(){
+        return this.pepp_top;
+    }
     public void setPepperoniToppings(int pepp_top) {
         this.pepp_top = pepp_top;
     }
-
+    public int getHamToppings(){
+        return this.ham_top;
+    }
     public void setHamToppings(int ham_top) {
         this.ham_top = ham_top;
     }
-
+    public Size getPizzaSize(){
+        return this.size;
+    }
     public void setPizzaSize(Size size) {
         this.size = size;
     }
