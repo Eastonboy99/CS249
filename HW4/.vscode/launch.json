@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - V5_Project_15_page_424",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/HW4",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "V5_Project_15_page_424",
+            "args": ""
+        }
+    ]
+}

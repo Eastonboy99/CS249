@@ -2,7 +2,8 @@ class PizzaOrder {
     private int numPizza; // number of pizzas
     private Pizza pizzas[]; // the pizzas
 
-    PizzaOrder() {}
+    PizzaOrder() {
+    }
 
     PizzaOrder(PizzaOrder order) {
         this.setNumPizzas(order.getNumPizzas());
