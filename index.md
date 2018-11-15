@@ -6,4 +6,5 @@
 [Homework 3](./HW3)
 [Homework 4](./HW4)
 [Homework 5](./HW5)
+[Homework 6](./HW6)
 

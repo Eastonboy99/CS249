@@ -1,0 +1,61 @@
+computers
+   - desktop
+        storage
+            type
+            size
+        ram
+            speed
+            ammount
+            type
+        cpu 
+            brand
+            speed
+            cores
+        psu
+            size
+            modular?
+        gpu
+            name
+            brand
+            manufacuter  
+        os
+   - laptop
+        storage
+            type
+            size
+        ram
+            speed
+            ammount
+            type
+        cpu 
+            brand
+            speed
+            cores
+        gpu
+            name
+            brand
+            manufacuter
+        screen
+            size
+            resolution
+        os
+   - phone
+        os
+            name
+            version
+
+        brand
+        storage 
+            size
+        ram 
+            size
+        screen          
+            size
+            resolution
+storage
+    hdd
+    sdd
+    flash
+    sdcard
+        
+    

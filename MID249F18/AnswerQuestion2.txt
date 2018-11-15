@@ -1,0 +1,13 @@
+All of the variable assignments should use the this pointer to be assigned. This will ensure that the assignments are for the current object.
+
+
+
+In the HourlyEmployee Class, the initial wageRate and Hours should be set using their set method where the check for the value being greater than zero is already executed.
+
+public HourlyEmployee(String theName, Date theDate,              // change this constructor to be something like this.
+                       double theWageRate, double theHours)
+    {
+         super(theName, theDate);
+             this.setRate(theWageRate); 
+             this.serHours(theHours);
+    }

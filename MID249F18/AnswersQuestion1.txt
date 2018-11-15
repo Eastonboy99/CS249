@@ -1,0 +1,1 @@
+The use of classes that extend upon each other is a great way to make an inventory system of similar items. The same features of similar items can be created in the parent class and used in the child classes.
