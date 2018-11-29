@@ -2,6 +2,56 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CH12_V5_Project_9_page_710",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "CH12_V5_Project_9_page_710",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CH13_V5_Problem_10_page_756_part1",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "CH13_V5_Problem_10_page_756_part1",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CH13_Project_8_Add_90Triangle",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "CH13_Project_8_Add_90Triangle",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InsertionSortDemo",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "InsertionSortDemo",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MergeSortDemo",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "MergeSortDemo",
+            "args": ""
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PersonDemo",
             "request": "launch",
             "cwd": "${workspaceFolder}",

@@ -56,6 +56,7 @@ public class V5_Project_11_page_646 {
         System.out.println("End of program.");
     }
 
+    //print out objects
     public static void readObjects(DataStore data) {
         List<Person> readObjects = data.readPersons();
         for (Person readPerson : readObjects) {

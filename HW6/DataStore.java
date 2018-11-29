@@ -25,6 +25,7 @@ class DataStore {
         this.clearFile();
     }
 
+    // Empty the file
     private void clearFile() {
         try {
             ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream(this.file));
@@ -34,6 +35,7 @@ class DataStore {
         }
     }
 
+    // add person to file
     public void addPerson(Person person) {
         List<Person> readObjects = this.readPersons();
 
@@ -51,6 +53,7 @@ class DataStore {
         }
     }
 
+    // read people from file
     public List<Person> readPersons() {
         List<Person> readObjects = new ArrayList<>();
 
@@ -74,6 +77,7 @@ class DataStore {
         }
     }
 
+    // remove person from file
     public void deletePerson(String name) {
         List<Person> readObjects = this.readPersons();
         if (readObjects != null) {
@@ -88,6 +92,7 @@ class DataStore {
 
     }
 
+    // return list of people within a set age range
     public List<Person> getAgeRange(int start, int end) {
         int startInHours = start * 8760;
         int endInHours = end * 8760;
