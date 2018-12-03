@@ -1,5 +1,5 @@
 public class Circle implements Shape {
-    double radius;
+    private double radius;
 
     public Circle(double radius) {
         this.setRadius(radius);
@@ -22,5 +22,10 @@ public class Circle implements Shape {
     @Override
     public double area() {
         return Math.PI * Math.pow(this.getRadius(), 2);
+    }
+
+    @Override
+    public String getType() {
+        return "Circle";
     }
 }

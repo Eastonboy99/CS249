@@ -1,6 +1,5 @@
 public class Rectangle implements Shape {
-    double length;
-    double height;
+    private double length, height;
 
     public Rectangle(double length, double height) {
         this.setHeight(height);
@@ -38,5 +37,10 @@ public class Rectangle implements Shape {
     @Override
     public double area() {
         return this.getHeight() * this.getLength();
+    }
+
+    @Override
+    public String getType() {
+        return "Rectangle";
     }
 }

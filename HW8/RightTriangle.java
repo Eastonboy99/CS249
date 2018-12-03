@@ -1,6 +1,5 @@
 public class RightTriangle implements Shape {
-    double base;
-    double height;
+    private double base, height;
 
     public RightTriangle(double base, double height) {
         this.setHeight(height);
@@ -38,5 +37,10 @@ public class RightTriangle implements Shape {
     @Override
     public double area() {
         return .5 * this.getHeight() * this.getBase();
+    }
+
+    @Override
+    public String getType() {
+        return "Right Triangle";
     }
 }

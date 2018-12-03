@@ -2,6 +2,36 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CH16_V5_Project_8_page_940",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "CH16_V5_Project_8_page_940",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CH14_V5_Problem_4_page_799",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "CH14_V5_Problem_4_page_799",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CH13_Project_8_Print_Type_Shape",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "CH13_Project_8_Print_Type_Shape",
+            "args": ""
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CH12_V5_Project_9_page_710",
             "request": "launch",
             "cwd": "${workspaceFolder}",
