@@ -7,4 +7,9 @@
 [Homework 4](./HW4)
 [Homework 5](./HW5)
 [Homework 6](./HW6)
+[Homework 7](./HW7)
+[Homework 8](./HW8)
+[Homework 9](./HW9)
+[Homework 10](./HW10)
+
 
