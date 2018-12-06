@@ -20,12 +20,10 @@ public class CH16_V5_Project_8_page_940 {
                 title = sc.nextLine();
 
                 rating = Integer.parseInt(sc.nextLine());
-                if (ratings.containsKey(title)) {
-                    ratings.get(title).add(rating);
-                } else {
+                if (!ratings.containsKey(title)) {
                     ratings.put(title, new ArrayList<Integer>());
-                    ratings.get(title).add(rating);
                 }
+                ratings.get(title).add(rating);
 
             }
 
@@ -36,7 +34,8 @@ public class CH16_V5_Project_8_page_940 {
                     average += val;
                 }
                 average /= movieRating.size();
-                System.out.println(name +": "+ movieRating.size() +" reviews, average of "+ df2.format(average) + " / 5");
+                System.out.println(
+                        name + ": " + movieRating.size() + " reviews, average of " + df2.format(average) + " / 5");
             }
 
         } catch (FileNotFoundException e) {
