@@ -1,0 +1,4 @@
+Object-Oriented languages allow for a much simpilier application. Since the Student, Faculty, and Book Store all use the same methods in this program, object oriented programming 
+allows for these objects to be related under the Notifications class. With out this, these "objects" would most likely be structs or a weird set of variables that would make both
+writing the code more challenging and the code being poorly optimized. I used an abstract class instead of using an interface here since all 3 of the Notification classes used the
+same set method. 
